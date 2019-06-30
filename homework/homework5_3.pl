@@ -10,7 +10,7 @@ if (!-e $sequence) {
 }
 
 # 拿到文件，这里是路径
-my $cds = "./cds.txt";
+my $cds = "../data/cds.txt";
 
 # 打开 cds.txt 文件
 open CDS, "<$cds" or die "无法打开 $cds: $!";
